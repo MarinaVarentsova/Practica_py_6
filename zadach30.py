@@ -7,7 +7,7 @@ a = int(input("введите первый элемент: "))
 d = int(input("введите разность: "))
 n = int(input("количество элементов: "))
 
-list = []
+list1 = []
 for i in range(n):
-    list.append(a + i * d)
+    list1.append(a + i * d)
 print(list)
